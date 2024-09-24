@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 64460969}
   - component: {fileID: 64460968}
   m_Layer: 7
-  m_Name: Fox 2 Normal
+  m_Name: Fox 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 497603804}
   - component: {fileID: 497603803}
   m_Layer: 7
-  m_Name: Fox 4 Normal
+  m_Name: Fox 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -674,8 +674,9 @@ GameObject:
   m_Component:
   - component: {fileID: 734568078}
   - component: {fileID: 734568077}
+  - component: {fileID: 734568079}
   m_Layer: 7
-  m_Name: Fox 1 Normal
+  m_Name: Fox 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,6 +751,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &734568079
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734568076}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ca9960841c67bc241803d25207bac062, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &855336185
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,7 +784,7 @@ GameObject:
   - component: {fileID: 855336187}
   - component: {fileID: 855336186}
   m_Layer: 7
-  m_Name: Fox 3 Normal
+  m_Name: Fox 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
