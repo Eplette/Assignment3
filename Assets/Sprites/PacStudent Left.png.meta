@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 6050d06c6be0df340b11aaa3d55060d0
+guid: e547a3e402e0b78478769c9d2abdef38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2657891635862963622
-    second: Fox 3 right_0
+      213: -7090179112662265371
+    second: PacStudent_0
   - first:
-      213: 5309061837388020519
-    second: Fox 3 right_1
+      213: 9183320132552326711
+    second: PacStudent_1
   - first:
-      213: -704579453251180886
-    second: Fox 3 right_2
+      213: -9050966025342474002
+    second: PacStudent_2
   - first:
-      213: -4753439682692232488
-    second: Fox 3 right_3
+      213: 8190684472983725799
+    second: PacStudent_3
+  - first:
+      213: -4981195885117398326
+    second: PacStudent_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fox 3 right_0
+      name: PacStudent_0
       rect:
         serializedVersion: 2
         x: 0
@@ -123,14 +126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5af7e8a3a54d1bd0800000000000000
-      internalID: -2657891635862963622
+      spriteID: 5e11fd399af9a9d90800000000000000
+      internalID: -7090179112662265371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox 3 right_1
+      name: PacStudent_1
       rect:
         serializedVersion: 2
         x: 32
@@ -144,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72b781ccc939da940800000000000000
-      internalID: 5309061837388020519
+      spriteID: 73e79775105b17f70800000000000000
+      internalID: 9183320132552326711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox 3 right_2
+      name: PacStudent_2
       rect:
         serializedVersion: 2
         x: 64
@@ -165,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa6ace468b4d836f0800000000000000
-      internalID: -704579453251180886
+      spriteID: ee82551aa52846280800000000000000
+      internalID: -9050966025342474002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox 3 right_3
+      name: PacStudent_3
       rect:
         serializedVersion: 2
         x: 0
@@ -186,8 +189,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8da42eb1bc3680eb0800000000000000
-      internalID: -4753439682692232488
+      spriteID: 7e6a08fc1282ba170800000000000000
+      internalID: 8190684472983725799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2a0f6ebbc3fdab0800000000000000
+      internalID: -4981195885117398326
       vertices: []
       indices: 
       edges: []
@@ -195,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7f33dbc5a8269cf42b7adf19f4f661cd
+    spriteID: 0d39d20f6933fec40b08b7e2847db6a5
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +227,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fox 3 right_0: -2657891635862963622
-      Fox 3 right_1: 5309061837388020519
-      Fox 3 right_2: -704579453251180886
-      Fox 3 right_3: -4753439682692232488
+      PacStudent_0: -7090179112662265371
+      PacStudent_1: 9183320132552326711
+      PacStudent_2: -9050966025342474002
+      PacStudent_3: 8190684472983725799
+      PacStudent_4: -4981195885117398326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

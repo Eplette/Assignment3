@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 6050d06c6be0df340b11aaa3d55060d0
+guid: 0c02a609a0cfe8b41885caf00646f8a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2657891635862963622
-    second: Fox 3 right_0
+      213: 8950293796322456021
+    second: PacStudent Up_0
   - first:
-      213: 5309061837388020519
-    second: Fox 3 right_1
+      213: -8979680652803174426
+    second: PacStudent Up_1
   - first:
-      213: -704579453251180886
-    second: Fox 3 right_2
+      213: -4623206765112562908
+    second: PacStudent Up_2
   - first:
-      213: -4753439682692232488
-    second: Fox 3 right_3
+      213: 8293319475921231110
+    second: PacStudent Up_3
+  - first:
+      213: -1916658251193491736
+    second: PacStudent Up_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fox 3 right_0
+      name: PacStudent Up_0
       rect:
         serializedVersion: 2
         x: 0
@@ -123,14 +126,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5af7e8a3a54d1bd0800000000000000
-      internalID: -2657891635862963622
+      spriteID: 5d1be2d79c4d53c70800000000000000
+      internalID: 8950293796322456021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox 3 right_1
+      name: PacStudent Up_1
       rect:
         serializedVersion: 2
         x: 32
@@ -144,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72b781ccc939da940800000000000000
-      internalID: 5309061837388020519
+      spriteID: 6ef083dc504c16380800000000000000
+      internalID: -8979680652803174426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox 3 right_2
+      name: PacStudent Up_2
       rect:
         serializedVersion: 2
         x: 64
@@ -165,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa6ace468b4d836f0800000000000000
-      internalID: -704579453251180886
+      spriteID: 42b684221f117dfb0800000000000000
+      internalID: -4623206765112562908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox 3 right_3
+      name: PacStudent Up_3
       rect:
         serializedVersion: 2
         x: 0
@@ -186,8 +189,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8da42eb1bc3680eb0800000000000000
-      internalID: -4753439682692232488
+      spriteID: 60d1d1b9f1ac71370800000000000000
+      internalID: 8293319475921231110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PacStudent Up_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee5ac5b979a665e0800000000000000
+      internalID: -1916658251193491736
       vertices: []
       indices: 
       edges: []
@@ -195,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7f33dbc5a8269cf42b7adf19f4f661cd
+    spriteID: b3b66a56d4de8dd4f85d6de7b9a4ff15
     internalID: 0
     vertices: []
     indices: 
@@ -203,10 +227,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fox 3 right_0: -2657891635862963622
-      Fox 3 right_1: 5309061837388020519
-      Fox 3 right_2: -704579453251180886
-      Fox 3 right_3: -4753439682692232488
+      PacStudent Up_0: 8950293796322456021
+      PacStudent Up_1: -8979680652803174426
+      PacStudent Up_2: -4623206765112562908
+      PacStudent Up_3: 8293319475921231110
+      PacStudent Up_4: -1916658251193491736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
