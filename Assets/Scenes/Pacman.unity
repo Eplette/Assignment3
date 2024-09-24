@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 64460969}
   - component: {fileID: 64460968}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fox 2 Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 497603804}
   - component: {fileID: 497603803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fox 4 Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586670353}
   - component: {fileID: 586670352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PacStudent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -565,7 +565,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647228173}
   - component: {fileID: 647228172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Normal Pellet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 734568078}
   - component: {fileID: 734568077}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fox 1 Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 855336187}
   - component: {fileID: 855336186}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fox 3 Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -823,7 +823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042564395}
   - component: {fileID: 1042564394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Power Pellet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271963193}
   - component: {fileID: 1271963192}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fox Dead State
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -995,7 +995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446107253}
   - component: {fileID: 1446107252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bonus Score Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1128,7 +1128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959939929}
   - component: {fileID: 1959939928}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fox Scared State
   m_TagString: Untagged
   m_Icon: {fileID: 0}
