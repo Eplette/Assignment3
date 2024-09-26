@@ -10,7 +10,6 @@ public class PacStudent : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         animator.SetBool("isDead", false);
-        animator.SetBool("isAlive", true);
     }
 
     // Update is called once per frame

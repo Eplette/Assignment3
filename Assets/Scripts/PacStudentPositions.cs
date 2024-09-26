@@ -5,7 +5,13 @@ using UnityEngine;
 public class PacStudentPositions : MonoBehaviour
 {
     [SerializeField]
-    private GameObject item;
+    private GameObject item; // <-- assign PacStudent as the item in Unity
+
+    private Animator animator; // <-- need this to change the animator controller state stuff 
+
+    public AudioClip pacStudentMovement; // <-- adding for PacStudent movement audio 
+
+    private AudioSource audioSource; // <-- need an audiosource to play the movement audio clip
 
     private Tweener tweener;
 
@@ -23,6 +29,8 @@ public class PacStudentPositions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        animator = item.GetComponent<Animator>(); // <-- getting animator from item (PacStudent) for state stuff, not tweening stuff 
+        audioSource = item.GetComponent<AudioSource>(); // <-- getting audioSource from item (PacStudent) for movement audio stuff, not tweening stuff
         tweener = GetComponent<Tweener>();
         StartCoroutine(PositionCycle());
     }
@@ -32,9 +40,30 @@ public class PacStudentPositions : MonoBehaviour
             Vector3 endPos = positions[nextPos]; //
             Vector3 startPos = item.transform.position; // <-- getting starting position
             tweener.AddTween(item.transform, startPos, endPos, duration);
+            
+            //animator.SetBool("moving", true);
+            
+            if (endPos == positions[0]) {
+                animator.Play("Walking_Down"); // <-- was going to set transition parameters but thats more complicated and I gave up and did this instead 
+            }
+            else if (endPos == positions[1]) {
+                animator.Play("Walking_Left");
+            }
+            else if (endPos == positions[2]) {
+                animator.Play("Walking_Up");
+            }
+            else {
+                animator.Play("Walking_Right");
+            }
+
+            audioSource.loop = true; // <-- telling it to loop the movement audio
+            audioSource.Play(); // <-- start playing the audio
 
             nextPos = (nextPos + 1) % positions.Length; // <-- need to % by the length because I don't want the number to go past 3 - it'll do 4 % 4 = 0 and go to the first pos
             yield return new WaitForSeconds(duration); // <-- making it wait till the movement is finished (3 seconds)
+            
+            // v transition back to idle state
+            //animator.SetBool("moving", false); <-- i wanted to add this but it makes the animation change back to idle too soon which is a no no and future me can worry about that for the actual game
         }
     }
 
