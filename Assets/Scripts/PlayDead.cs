@@ -9,6 +9,8 @@ public class PlayDead : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.SetBool("isDead", true);
+        animator.SetBool("isAlive", false);
         animator.Play("Dead_PacStudent");
     }
 
