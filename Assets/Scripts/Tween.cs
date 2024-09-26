@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tween
+public class Tween //removed : MonoBehaviour
 {
     // { get; private set; } -> sets them privately
     public Transform Target { get; private set; }
