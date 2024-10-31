@@ -214,7 +214,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64460967}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 22100000, guid: ff1fc0a8e27f4a146bb2f3801ab9abad, type: 2}
   m_CullingMode: 0
@@ -409,7 +409,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497603802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 22100000, guid: 58a553ea54ea8364790590e82de7e045, type: 2}
   m_CullingMode: 0
@@ -525,8 +525,6 @@ GameObject:
   m_Component:
   - component: {fileID: 586670353}
   - component: {fileID: 586670352}
-  - component: {fileID: 586670354}
-  - component: {fileID: 586670355}
   - component: {fileID: 586670356}
   m_Layer: 6
   m_Name: PacStudent
@@ -598,46 +596,12 @@ Transform:
   m_GameObject: {fileID: 586670351}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5, y: 14.5, z: 0}
+  m_LocalPosition: {x: -11.49, y: 14.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &586670354
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586670351}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f2a3c087e3f187c4da5a5b21ebe58705, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &586670355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586670351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e84160b535516cb418ff023d2080cd21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &586670356
 AudioSource:
   m_ObjectHideFlags: 0
@@ -833,7 +797,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734568076}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ca9960841c67bc241803d25207bac062, type: 2}
   m_CullingMode: 0
@@ -942,7 +906,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855336185}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 22100000, guid: 143514c843514c947af96b7f18a7fbd5, type: 2}
   m_CullingMode: 0
@@ -3335,7 +3299,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1306298057}
-  - component: {fileID: 1306298056}
   - component: {fileID: 1306298055}
   m_Layer: 0
   m_Name: PacStudentTweenController
@@ -3356,20 +3319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f870b230e523e3b4081e1264112946d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1306298056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306298054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c523226eca04b745bf8c571f2d9d6aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 586670351}
-  pacStudentMovement: {fileID: 0}
 --- !u!4 &1306298057
 Transform:
   m_ObjectHideFlags: 0
