@@ -3450,7 +3450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   introMusic: {fileID: 8300000, guid: a76f5ec2b087f0948970a85d16427fdd, type: 3}
-  normalStateMusic: {fileID: 8300000, guid: 5dd4405713ec0a74d9e6892d46aaea27, type: 3}
+  normalStateMusic: {fileID: 8300000, guid: 34da864d9cb587c4190995c0910827e5, type: 3}
   audioSource: {fileID: 0}
 --- !u!4 &1512836652
 Transform:
